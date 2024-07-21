@@ -1,0 +1,43 @@
+/* Conteneur principal centré */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Utilise toute la hauteur de la fenêtre */
+    text-align: center; /* Centre le texte */
+    background-color: #f4f4f4; /* Couleur de fond */
+  }
+  
+  h1, h2, h3 {
+    margin: 10px 0; /* Espacement des titres */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Couleur de fond des boutons */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+  }
+  
+  ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
